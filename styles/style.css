@@ -93,52 +93,40 @@ img {
 }
 
 .header-img {
-  background-image: -webkit-gradient(
-      linear,
+  background-image: -webkit-gradient(linear,
       left top,
       right top,
       from(rgba(252, 227, 138, 0.9)),
-      to(rgba(243, 129, 129, 0.9))
-    ),
+      to(rgba(243, 129, 129, 0.9))),
     url(../images/header-pic.jpg);
-  background-image: -o-linear-gradient(
-      left,
+  background-image: -o-linear-gradient(left,
       rgba(252, 227, 138, 0.9),
-      rgba(243, 129, 129, 0.9)
-    ),
+      rgba(243, 129, 129, 0.9)),
     url(../images/header-pic.jpg);
-  background-image: linear-gradient(
-      90deg,
+  background-image: linear-gradient(90deg,
       rgba(252, 227, 138, 0.9),
-      rgba(243, 129, 129, 0.9)
-    ),
+      rgba(243, 129, 129, 0.9)),
     url(../images/header-pic.jpg);
   background-size: cover;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2),
-  (-o-min-device-pixel-ratio: 2/1),
-  (min-resolution: 192dpi) {
+(-o-min-device-pixel-ratio: 2/1),
+(min-resolution: 192dpi) {
   .header-img {
-    background-image: -webkit-gradient(
-        linear,
+    background-image: -webkit-gradient(linear,
         left top,
         right top,
         from(rgba(252, 227, 138, 0.9)),
-        to(rgba(243, 129, 129, 0.9))
-      ),
+        to(rgba(243, 129, 129, 0.9))),
       url(../images/header-pic@2x.jpg);
-    background-image: -o-linear-gradient(
-        left,
+    background-image: -o-linear-gradient(left,
         rgba(252, 227, 138, 0.9),
-        rgba(243, 129, 129, 0.9)
-      ),
+        rgba(243, 129, 129, 0.9)),
       url(../images/header-pic@2x.jpg);
-    background-image: linear-gradient(
-        90deg,
+    background-image: linear-gradient(90deg,
         rgba(252, 227, 138, 0.9),
-        rgba(243, 129, 129, 0.9)
-      ),
+        rgba(243, 129, 129, 0.9)),
       url(../images/header-pic@2x.jpg);
   }
 }
@@ -369,23 +357,17 @@ img {
 }
 
 .social--overlay {
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(rgba(252, 227, 138, 0.9)),
-    to(rgba(243, 129, 129, 0.9))
-  );
-  background-image: -o-linear-gradient(
-    left,
-    rgba(252, 227, 138, 0.9),
-    rgba(243, 129, 129, 0.9)
-  );
-  background-image: linear-gradient(
-    90deg,
-    rgba(252, 227, 138, 0.9),
-    rgba(243, 129, 129, 0.9)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      right top,
+      from(rgba(252, 227, 138, 0.9)),
+      to(rgba(243, 129, 129, 0.9)));
+  background-image: -o-linear-gradient(left,
+      rgba(252, 227, 138, 0.9),
+      rgba(243, 129, 129, 0.9));
+  background-image: linear-gradient(90deg,
+      rgba(252, 227, 138, 0.9),
+      rgba(243, 129, 129, 0.9));
   height: 100%;
   width: 100%;
   position: absolute;
